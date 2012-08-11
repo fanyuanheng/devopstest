@@ -1,0 +1,11 @@
+JAVA_HOME="/usr/lib/jvm/jre-1.6.0-openjdk.x86_64"
+CATALINA_HOME="/usr/share/tomcat5"
+JASPER_HOME="/usr/share/tomcat5"
+CATALINA_TMPDIR="/usr/share/tomcat5/temp"
+JAVA_ENDORSED_DIRS="/usr/share/tomcat5/common/endorsed"
+JAVA_OPTS="$JAVA_OPTS -Dcatalina.ext.dirs=$CATALINA_HOME/shared/lib:$CATALINA_HOME/common/lib"
+JAVA_OPTS="${JAVA_OPTS} -Djavax.sql.DataSource.Factory=org.apache.commons.dbcp.BasicDataSourceFactory"
+TOMCAT_USER="tomcat"
+SHUTDOWN_WAIT=30
+CATALINA_PID=/var/run/tomcat5.pid
+CONNECTOR_PORT=8080

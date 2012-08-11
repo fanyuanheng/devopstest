@@ -1,0 +1,3 @@
+rvm_user_install_flag=1
+rvm_install_on_use_flag=1
+rvm use --create 1.9.3@devopstest
