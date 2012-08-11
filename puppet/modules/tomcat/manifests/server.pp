@@ -43,7 +43,7 @@ class tomcat::server {
     owner   => "root",
     group   => "tomcat",
     mode    =>  0644,
-    require => Package['tomcat'],
+    require => Package['tomcat-webapps'],
     notify => Service['tomcat'],
   }
   
