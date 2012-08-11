@@ -3,7 +3,6 @@
 ## Demo ##
 
   ./go clean environment:vagrant node:bootstrap package:puppet node:puppet_apply
----
 
 ## All tasks ##
   rake clean                    # Remove any temporary products.
@@ -11,7 +10,6 @@
   rake node:bootstrap           # bootstraps the node(s) configured in DEPLOY_HOSTS
   rake node:puppet_apply[noop]  # runs puppet apply on the node(s) configured in DEPLOY_HOSTS
   rake package:puppet           # package puppet
----
 
 ## Completed Challenges ##
 
